@@ -1,0 +1,62 @@
+.pricing-section-extended {
+  padding: 70px 0 90px;
+}
+
+.pricing-box-extended {
+  display: inline-block;
+  width: 100%;
+  border: 3px #dddddd solid;
+  /* padding: 25px 0 20px; */
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  text-align: center;
+  margin-top: 5px;
+}
+.pricing-box-extended h3 {
+  font-size: 24px;
+  color: #fa6900;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: "Pacifico", cursive;
+}
+.pricing-box-extended p {
+  margin: 0px !important;
+}
+.prices-container {
+}
+.prices-container > div:nth-of-type(1) {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+}
+.prices-container h2 {
+  margin: 0px;
+}
+.prices-container h1 {
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+    border-bottom: 2px lightgrey solid;
+    border-width: 1px;
+}
+.pc-col-12 {
+}
+.pc-col-6 {
+  width: 45%;
+  margin: auto;
+}
+
+@media only screen and (max-device-width: 667px) {
+  .pc-col-12 {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
